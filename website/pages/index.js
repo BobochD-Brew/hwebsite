@@ -3,7 +3,9 @@ import Navbar from "components/Navbar";
 import Bg from "components/Bg";
 import Persos from "components/Persos";
 
-const Home = () => {
+const Home = (props) => {
+  let a = 5;
+
   return (
     <div className="all fixed inset-0 flex">
       <Head>

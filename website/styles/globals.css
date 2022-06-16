@@ -16,6 +16,28 @@ html,body{
   background: url("../public/diamonds.png") center center / cover no-repeat, #0a0300;
 }
 
+.web3button{
+  background-color: #18abe3;
+  border: #18abe3 solid 5px;
+  padding: 5px;
+  color: #fff;
+  border-radius: 25px;
+}
+
+.web3button:hover{
+  border: #0295cd solid 5px;
+  background-color: #fff;
+  color: #0295cd;
+  border-radius: 25px;
+}
+
+.web3button:active{
+  background-color: #fff;
+  border: #fff solid 5px;
+  color: #18abe3;
+  border-radius: 25px;
+}
+
 img{
   width: 100%;
   height: 100%;
